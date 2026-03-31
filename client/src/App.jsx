@@ -19,7 +19,7 @@ import TestAttempt from './pages/TestAttempt'
 import TestPerformance from './pages/TestPerformance'
 import Playground from './pages/Playground'
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://connectcampusserver.onrender.com"
 
 function App () {
   const dispatch = useDispatch()
