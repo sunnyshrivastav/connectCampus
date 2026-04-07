@@ -3,6 +3,7 @@ import MermaidSetup from './MermaidSetup'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import RechartSetUp from './RechartSetUp'
+import { motion } from "framer-motion";
 
 function FinalResult({ result }) {
   if (!result) return null
